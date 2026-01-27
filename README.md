@@ -26,3 +26,5 @@ The script hooks the following signature:
    frida -U <Application_Bundle> -l hook_memcpy.js
 
    
+In this example I made the script to filter the word **AES** from the **memcpy**
+![iOS Hooking Overview](image_IOS.png)
