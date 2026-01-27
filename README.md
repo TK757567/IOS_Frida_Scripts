@@ -22,7 +22,6 @@ The script hooks the following signature:
 2. **Setup:** Save the script below as `hook_memcpy.js`.
 3. **Execution:**
    ```bash
-   frida -U -f <Your_Bundle_ID> -l hook_memcpy.js```
-
+   frida -U -f <Your_Bundle_ID> -l hook_memcpy.js
 
    
