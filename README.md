@@ -17,6 +17,10 @@ You will find scripts:
 ## 🚀 Recommendation
 I am using frida version 16.1.10, which was compatable with me to use with my jailbroken device
 
+Frida version 17+ might not work, cause in the newer version of it, they changed the module API functions, such `findExportByName`, which used to hook C functions.
+
+[Frida 17](https://frida.re/news/2025/05/17/frida-17-0-0-released/)
+
 
 ## Ptrace Bypass
 
