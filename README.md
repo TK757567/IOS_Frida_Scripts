@@ -46,6 +46,7 @@ if (ptracePtr) {
 }
 
 ```
+![iOS Hooking Overview](ptrace.png)
 
 ## Hooking Comparison Functions
 
@@ -89,6 +90,7 @@ cmps.forEach(funcName => {
 });
 
 ```
+![iOS Hooking Overview](comparison.png)
 
 ## Hooking fileExistsAtPath from NSFileManager
 
@@ -118,6 +120,8 @@ if (ObjC.available) {
 }
 
 ```
+![iOS Hooking Overview](filemanager.png)
+
 
 ## Memory Dumping
 
